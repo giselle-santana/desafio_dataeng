@@ -1,0 +1,18 @@
+# Uso de IA
+- **Ferramentas usadas:** Claude (chat) e Gemini (chat)
+- **Onde mais ajudou:** 
+    - No perfil dos dados (formatos de data, métricas como texto, duplicatas, arquivos reentregues, coletas zeradas);
+    - Na criação dos testes e funções dos .py, especialmente cli.py, e para leitura dos arquivos gz; 
+    - No preenchimento de alguns trechos do DECISOES.md;
+    - Comentários nos códigos;
+    - No esclarecimento de dúvidas sobre DuckDB e de erros ao longo das execuções.
+- **O que você corrigiu, reescreveu ou rejeitou do que a IA sugeriu:** 
+    - Foi rejeitado o uso de pandas pois com o DuckDB conseguimos usar e manipular com SQL diretamente, o que facilita o entendimento ao meu ver;
+    - Foi necessária a correção do arquivo README.md gerado automaticamente pela IA e a correção algumas construções do sql de qualidade, pois com a sugestão inicial da IA ocorreram algumas falhas durante o reprocessamento;
+    - E foi solicitado o ajuste de um teste que consultava uma checagem informativa que falhava.
+- **Partes que você fez sem IA, se houver:** 
+    - Criação de repositório;
+    - Checagem dos códigos gerados pela IA;
+    - Validações manuais entre resultados de diferentes execuções;
+    - Parte dos arquivos .sql;
+    - Preenchimento da maior parte dos arquivos .md.
