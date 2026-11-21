@@ -1,0 +1,123 @@
+run_id,executado_em,dia_chegada,checagem,status,valor,detalhe
+20261120T222304Z,2026-11-20 22:23:04.458886,2026-09-01,arquivos_com_conteudo_identico,ok,0,arquivos reentregues com conteudo identico (as linhas viram duplicata_observacao; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:04.458886,2026-09-01,curva_chave_unica,ok,0,"uma linha por (platform, post_id, dia) em posts_curva_diaria"
+20261120T222304Z,2026-11-20 22:23:04.458886,2026-09-01,curva_dia_entre_0_e_30,ok,0,dia fora do intervalo 0..30
+20261120T222304Z,2026-11-20 22:23:04.458886,2026-09-01,dia_sem_arquivos,ok,0,4 arquivo(s) carregado(s)
+20261120T222304Z,2026-11-20 22:23:04.458886,2026-09-01,dominios_validos,ok,0,platform em yt/ig/tt e status em active/removed
+20261120T222304Z,2026-11-20 22:23:04.458886,2026-09-01,duplicatas_com_valores_diferentes,ok,0,mesma observacao (post+fonte+instante) chegou com valores diferentes (vale a chegada mais recente)
+20261120T222304Z,2026-11-20 22:23:04.458886,2026-09-01,estado_atual_chave_unica,ok,0,"uma linha por (platform, post_id) em posts_estado_atual"
+20261120T222304Z,2026-11-20 22:23:04.458886,2026-09-01,metricas_nao_negativas,ok,0,nenhuma metrica negativa nas saidas (sentinela -1 virou vazio)
+20261120T222304Z,2026-11-20 22:23:04.458886,2026-09-01,quedas_de_metrica,alerta,3,metrica acumulada que diminui entre observacoes consecutivas (mantida como observada; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:04.458886,2026-09-01,reconciliacao_linhas,ok,0,toda linha bruta esta em obs_validas ou em rejeitados (nada some em silencio)
+20261120T222304Z,2026-11-20 22:23:04.458886,2026-09-01,rejeitados:publicado_depois_da_coleta,info,3,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:04.934772,2026-09-02,arquivos_com_conteudo_identico,alerta,1,arquivos reentregues com conteudo identico (as linhas viram duplicata_observacao; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:04.934772,2026-09-02,curva_chave_unica,ok,0,"uma linha por (platform, post_id, dia) em posts_curva_diaria"
+20261120T222304Z,2026-11-20 22:23:04.934772,2026-09-02,curva_dia_entre_0_e_30,ok,0,dia fora do intervalo 0..30
+20261120T222304Z,2026-11-20 22:23:04.934772,2026-09-02,dia_sem_arquivos,ok,0,6 arquivo(s) carregado(s)
+20261120T222304Z,2026-11-20 22:23:04.934772,2026-09-02,dominios_validos,ok,0,platform em yt/ig/tt e status em active/removed
+20261120T222304Z,2026-11-20 22:23:04.934772,2026-09-02,duplicatas_com_valores_diferentes,ok,0,mesma observacao (post+fonte+instante) chegou com valores diferentes (vale a chegada mais recente)
+20261120T222304Z,2026-11-20 22:23:04.934772,2026-09-02,estado_atual_chave_unica,ok,0,"uma linha por (platform, post_id) em posts_estado_atual"
+20261120T222304Z,2026-11-20 22:23:04.934772,2026-09-02,metricas_nao_negativas,ok,0,nenhuma metrica negativa nas saidas (sentinela -1 virou vazio)
+20261120T222304Z,2026-11-20 22:23:04.934772,2026-09-02,quedas_de_metrica,alerta,11,metrica acumulada que diminui entre observacoes consecutivas (mantida como observada; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:04.934772,2026-09-02,reconciliacao_linhas,ok,0,toda linha bruta esta em obs_validas ou em rejeitados (nada some em silencio)
+20261120T222304Z,2026-11-20 22:23:04.934772,2026-09-02,rejeitados:metricas_zeradas_suspeitas,info,1,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:04.934772,2026-09-02,rejeitados:publicado_depois_da_coleta,info,5,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:05.523345,2026-09-03,arquivos_com_conteudo_identico,alerta,1,arquivos reentregues com conteudo identico (as linhas viram duplicata_observacao; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:05.523345,2026-09-03,curva_chave_unica,ok,0,"uma linha por (platform, post_id, dia) em posts_curva_diaria"
+20261120T222304Z,2026-11-20 22:23:05.523345,2026-09-03,curva_dia_entre_0_e_30,ok,0,dia fora do intervalo 0..30
+20261120T222304Z,2026-11-20 22:23:05.523345,2026-09-03,dia_sem_arquivos,ok,0,5 arquivo(s) carregado(s)
+20261120T222304Z,2026-11-20 22:23:05.523345,2026-09-03,dominios_validos,ok,0,platform em yt/ig/tt e status em active/removed
+20261120T222304Z,2026-11-20 22:23:05.523345,2026-09-03,duplicatas_com_valores_diferentes,ok,0,mesma observacao (post+fonte+instante) chegou com valores diferentes (vale a chegada mais recente)
+20261120T222304Z,2026-11-20 22:23:05.523345,2026-09-03,estado_atual_chave_unica,ok,0,"uma linha por (platform, post_id) em posts_estado_atual"
+20261120T222304Z,2026-11-20 22:23:05.523345,2026-09-03,metricas_nao_negativas,ok,0,nenhuma metrica negativa nas saidas (sentinela -1 virou vazio)
+20261120T222304Z,2026-11-20 22:23:05.523345,2026-09-03,quedas_de_metrica,alerta,17,metrica acumulada que diminui entre observacoes consecutivas (mantida como observada; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:05.523345,2026-09-03,reconciliacao_linhas,ok,0,toda linha bruta esta em obs_validas ou em rejeitados (nada some em silencio)
+20261120T222304Z,2026-11-20 22:23:05.523345,2026-09-03,rejeitados:metricas_zeradas_suspeitas,info,6,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:05.523345,2026-09-03,rejeitados:publicado_depois_da_coleta,info,1,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:06.309627,2026-09-04,arquivos_com_conteudo_identico,alerta,1,arquivos reentregues com conteudo identico (as linhas viram duplicata_observacao; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:06.309627,2026-09-04,curva_chave_unica,ok,0,"uma linha por (platform, post_id, dia) em posts_curva_diaria"
+20261120T222304Z,2026-11-20 22:23:06.309627,2026-09-04,curva_dia_entre_0_e_30,ok,0,dia fora do intervalo 0..30
+20261120T222304Z,2026-11-20 22:23:06.309627,2026-09-04,dia_sem_arquivos,ok,0,5 arquivo(s) carregado(s)
+20261120T222304Z,2026-11-20 22:23:06.309627,2026-09-04,dominios_validos,ok,0,platform em yt/ig/tt e status em active/removed
+20261120T222304Z,2026-11-20 22:23:06.309627,2026-09-04,duplicatas_com_valores_diferentes,ok,0,mesma observacao (post+fonte+instante) chegou com valores diferentes (vale a chegada mais recente)
+20261120T222304Z,2026-11-20 22:23:06.309627,2026-09-04,estado_atual_chave_unica,ok,0,"uma linha por (platform, post_id) em posts_estado_atual"
+20261120T222304Z,2026-11-20 22:23:06.309627,2026-09-04,metricas_nao_negativas,ok,0,nenhuma metrica negativa nas saidas (sentinela -1 virou vazio)
+20261120T222304Z,2026-11-20 22:23:06.309627,2026-09-04,quedas_de_metrica,alerta,19,metrica acumulada que diminui entre observacoes consecutivas (mantida como observada; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:06.309627,2026-09-04,reconciliacao_linhas,ok,0,toda linha bruta esta em obs_validas ou em rejeitados (nada some em silencio)
+20261120T222304Z,2026-11-20 22:23:06.309627,2026-09-04,rejeitados:json_invalido,info,3,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:06.309627,2026-09-04,rejeitados:metricas_zeradas_suspeitas,info,4,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:06.309627,2026-09-04,rejeitados:publicado_depois_da_coleta,info,6,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:07.427053,2026-09-05,arquivos_com_conteudo_identico,alerta,1,arquivos reentregues com conteudo identico (as linhas viram duplicata_observacao; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:07.427053,2026-09-05,curva_chave_unica,ok,0,"uma linha por (platform, post_id, dia) em posts_curva_diaria"
+20261120T222304Z,2026-11-20 22:23:07.427053,2026-09-05,curva_dia_entre_0_e_30,ok,0,dia fora do intervalo 0..30
+20261120T222304Z,2026-11-20 22:23:07.427053,2026-09-05,dia_sem_arquivos,ok,0,7 arquivo(s) carregado(s)
+20261120T222304Z,2026-11-20 22:23:07.427053,2026-09-05,dominios_validos,ok,0,platform em yt/ig/tt e status em active/removed
+20261120T222304Z,2026-11-20 22:23:07.427053,2026-09-05,duplicatas_com_valores_diferentes,ok,0,mesma observacao (post+fonte+instante) chegou com valores diferentes (vale a chegada mais recente)
+20261120T222304Z,2026-11-20 22:23:07.427053,2026-09-05,estado_atual_chave_unica,ok,0,"uma linha por (platform, post_id) em posts_estado_atual"
+20261120T222304Z,2026-11-20 22:23:07.427053,2026-09-05,metricas_nao_negativas,ok,0,nenhuma metrica negativa nas saidas (sentinela -1 virou vazio)
+20261120T222304Z,2026-11-20 22:23:07.427053,2026-09-05,quedas_de_metrica,alerta,21,metrica acumulada que diminui entre observacoes consecutivas (mantida como observada; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:07.427053,2026-09-05,reconciliacao_linhas,ok,0,toda linha bruta esta em obs_validas ou em rejeitados (nada some em silencio)
+20261120T222304Z,2026-11-20 22:23:07.427053,2026-09-05,rejeitados:metricas_zeradas_suspeitas,info,8,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:07.427053,2026-09-05,rejeitados:publicado_depois_da_coleta,info,4,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:08.799847,2026-09-06,arquivos_com_conteudo_identico,alerta,2,arquivos reentregues com conteudo identico (as linhas viram duplicata_observacao; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:08.799847,2026-09-06,curva_chave_unica,ok,0,"uma linha por (platform, post_id, dia) em posts_curva_diaria"
+20261120T222304Z,2026-11-20 22:23:08.799847,2026-09-06,curva_dia_entre_0_e_30,ok,0,dia fora do intervalo 0..30
+20261120T222304Z,2026-11-20 22:23:08.799847,2026-09-06,dia_sem_arquivos,ok,0,7 arquivo(s) carregado(s)
+20261120T222304Z,2026-11-20 22:23:08.799847,2026-09-06,dominios_validos,ok,0,platform em yt/ig/tt e status em active/removed
+20261120T222304Z,2026-11-20 22:23:08.799847,2026-09-06,duplicatas_com_valores_diferentes,ok,0,mesma observacao (post+fonte+instante) chegou com valores diferentes (vale a chegada mais recente)
+20261120T222304Z,2026-11-20 22:23:08.799847,2026-09-06,estado_atual_chave_unica,ok,0,"uma linha por (platform, post_id) em posts_estado_atual"
+20261120T222304Z,2026-11-20 22:23:08.799847,2026-09-06,metricas_nao_negativas,ok,0,nenhuma metrica negativa nas saidas (sentinela -1 virou vazio)
+20261120T222304Z,2026-11-20 22:23:08.799847,2026-09-06,quedas_de_metrica,alerta,24,metrica acumulada que diminui entre observacoes consecutivas (mantida como observada; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:08.799847,2026-09-06,reconciliacao_linhas,ok,0,toda linha bruta esta em obs_validas ou em rejeitados (nada some em silencio)
+20261120T222304Z,2026-11-20 22:23:08.799847,2026-09-06,rejeitados:metricas_zeradas_suspeitas,info,9,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:08.799847,2026-09-06,rejeitados:publicado_depois_da_coleta,info,6,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:10.266724,2026-09-07,arquivos_com_conteudo_identico,alerta,2,arquivos reentregues com conteudo identico (as linhas viram duplicata_observacao; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:10.266724,2026-09-07,curva_chave_unica,ok,0,"uma linha por (platform, post_id, dia) em posts_curva_diaria"
+20261120T222304Z,2026-11-20 22:23:10.266724,2026-09-07,curva_dia_entre_0_e_30,ok,0,dia fora do intervalo 0..30
+20261120T222304Z,2026-11-20 22:23:10.266724,2026-09-07,dia_sem_arquivos,ok,0,5 arquivo(s) carregado(s)
+20261120T222304Z,2026-11-20 22:23:10.266724,2026-09-07,dominios_validos,ok,0,platform em yt/ig/tt e status em active/removed
+20261120T222304Z,2026-11-20 22:23:10.266724,2026-09-07,duplicatas_com_valores_diferentes,ok,0,mesma observacao (post+fonte+instante) chegou com valores diferentes (vale a chegada mais recente)
+20261120T222304Z,2026-11-20 22:23:10.266724,2026-09-07,estado_atual_chave_unica,ok,0,"uma linha por (platform, post_id) em posts_estado_atual"
+20261120T222304Z,2026-11-20 22:23:10.266724,2026-09-07,metricas_nao_negativas,ok,0,nenhuma metrica negativa nas saidas (sentinela -1 virou vazio)
+20261120T222304Z,2026-11-20 22:23:10.266724,2026-09-07,quedas_de_metrica,alerta,27,metrica acumulada que diminui entre observacoes consecutivas (mantida como observada; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:10.266724,2026-09-07,reconciliacao_linhas,ok,0,toda linha bruta esta em obs_validas ou em rejeitados (nada some em silencio)
+20261120T222304Z,2026-11-20 22:23:10.266724,2026-09-07,rejeitados:metricas_zeradas_suspeitas,info,10,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:10.266724,2026-09-07,rejeitados:publicado_depois_da_coleta,info,9,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,arquivos_com_conteudo_identico,alerta,3,arquivos reentregues com conteudo identico (as linhas viram duplicata_observacao; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,curva_chave_unica,ok,0,"uma linha por (platform, post_id, dia) em posts_curva_diaria"
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,curva_dia_entre_0_e_30,ok,0,dia fora do intervalo 0..30
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,dia_sem_arquivos,ok,0,8 arquivo(s) carregado(s)
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,dominios_validos,ok,0,platform em yt/ig/tt e status em active/removed
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,duplicatas_com_valores_diferentes,ok,0,mesma observacao (post+fonte+instante) chegou com valores diferentes (vale a chegada mais recente)
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,estado_atual_chave_unica,ok,0,"uma linha por (platform, post_id) em posts_estado_atual"
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,metricas_nao_negativas,ok,0,nenhuma metrica negativa nas saidas (sentinela -1 virou vazio)
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,quedas_de_metrica,alerta,32,metrica acumulada que diminui entre observacoes consecutivas (mantida como observada; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,reconciliacao_linhas,ok,0,toda linha bruta esta em obs_validas ou em rejeitados (nada some em silencio)
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,rejeitados:duplicata_observacao,info,1084,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,rejeitados:json_invalido,info,3,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,rejeitados:metricas_zeradas_suspeitas,info,8,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:12.00648,2026-09-08,rejeitados:publicado_depois_da_coleta,info,1,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:14.062723,2026-09-09,arquivos_com_conteudo_identico,alerta,3,arquivos reentregues com conteudo identico (as linhas viram duplicata_observacao; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:14.062723,2026-09-09,curva_chave_unica,ok,0,"uma linha por (platform, post_id, dia) em posts_curva_diaria"
+20261120T222304Z,2026-11-20 22:23:14.062723,2026-09-09,curva_dia_entre_0_e_30,ok,0,dia fora do intervalo 0..30
+20261120T222304Z,2026-11-20 22:23:14.062723,2026-09-09,dia_sem_arquivos,ok,0,7 arquivo(s) carregado(s)
+20261120T222304Z,2026-11-20 22:23:14.062723,2026-09-09,dominios_validos,ok,0,platform em yt/ig/tt e status em active/removed
+20261120T222304Z,2026-11-20 22:23:14.062723,2026-09-09,duplicatas_com_valores_diferentes,ok,0,mesma observacao (post+fonte+instante) chegou com valores diferentes (vale a chegada mais recente)
+20261120T222304Z,2026-11-20 22:23:14.062723,2026-09-09,estado_atual_chave_unica,ok,0,"uma linha por (platform, post_id) em posts_estado_atual"
+20261120T222304Z,2026-11-20 22:23:14.062723,2026-09-09,metricas_nao_negativas,ok,0,nenhuma metrica negativa nas saidas (sentinela -1 virou vazio)
+20261120T222304Z,2026-11-20 22:23:14.062723,2026-09-09,quedas_de_metrica,alerta,47,metrica acumulada que diminui entre observacoes consecutivas (mantida como observada; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:14.062723,2026-09-09,reconciliacao_linhas,ok,0,toda linha bruta esta em obs_validas ou em rejeitados (nada some em silencio)
+20261120T222304Z,2026-11-20 22:23:14.062723,2026-09-09,rejeitados:metricas_zeradas_suspeitas,info,8,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:14.062723,2026-09-09,rejeitados:publicado_depois_da_coleta,info,2,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:16.764488,2026-09-10,arquivos_com_conteudo_identico,alerta,3,arquivos reentregues com conteudo identico (as linhas viram duplicata_observacao; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:16.764488,2026-09-10,curva_chave_unica,ok,0,"uma linha por (platform, post_id, dia) em posts_curva_diaria"
+20261120T222304Z,2026-11-20 22:23:16.764488,2026-09-10,curva_dia_entre_0_e_30,ok,0,dia fora do intervalo 0..30
+20261120T222304Z,2026-11-20 22:23:16.764488,2026-09-10,dia_sem_arquivos,ok,0,7 arquivo(s) carregado(s)
+20261120T222304Z,2026-11-20 22:23:16.764488,2026-09-10,dominios_validos,ok,0,platform em yt/ig/tt e status em active/removed
+20261120T222304Z,2026-11-20 22:23:16.764488,2026-09-10,duplicatas_com_valores_diferentes,ok,0,mesma observacao (post+fonte+instante) chegou com valores diferentes (vale a chegada mais recente)
+20261120T222304Z,2026-11-20 22:23:16.764488,2026-09-10,estado_atual_chave_unica,ok,0,"uma linha por (platform, post_id) em posts_estado_atual"
+20261120T222304Z,2026-11-20 22:23:16.764488,2026-09-10,metricas_nao_negativas,ok,0,nenhuma metrica negativa nas saidas (sentinela -1 virou vazio)
+20261120T222304Z,2026-11-20 22:23:16.764488,2026-09-10,quedas_de_metrica,alerta,62,metrica acumulada que diminui entre observacoes consecutivas (mantida como observada; contagem acumulada ate o dia processado)
+20261120T222304Z,2026-11-20 22:23:16.764488,2026-09-10,reconciliacao_linhas,ok,0,toda linha bruta esta em obs_validas ou em rejeitados (nada some em silencio)
+20261120T222304Z,2026-11-20 22:23:16.764488,2026-09-10,rejeitados:metricas_zeradas_suspeitas,info,7,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
+20261120T222304Z,2026-11-20 22:23:16.764488,2026-09-10,rejeitados:publicado_depois_da_coleta,info,3,linhas deste dia de chegada em rejeitados (ver tabela rejeitados)
